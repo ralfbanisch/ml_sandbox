@@ -1,0 +1,29 @@
+Some small datasets for regression problems.
+
+Comments on the kaggle datasets: In general, for any kaggle dataset, there is a
+'data' tab where a 'train.csv' and a 'test.csv' dataset can be downloaded. the
+'train.csv' dataset contains labelled data and should be used to train the model.
+The 'test.csv' dataset should be used for testing. If you want to see how well you
+do, you can create an account for your team and submit your predictions for
+'test.csv' to the website. You will then appear on the 'Leaderboard' tab.
+
+Feel free to explore https://www.kaggle.com/competitions for more datasets. I do
+recommend starting with the ones below though. Inform me if you want to use other
+datasets.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+
+1) Boston house prices: Learn an model for the price of a house.
+
+    http://archive.ics.uci.edu/ml/datasets/Housing
+
+    This data is also conveniently available on scikit-learn:
+
+    http://scikit-learn.org/stable/datasets/index.html
+
+2) House price competition from kaggle:
+
+    https://www.kaggle.com/c/house-prices-advanced-regression-techniques
