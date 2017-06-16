@@ -1,0 +1,28 @@
+Here are a few links to some 'challenging' classification datasets from kaggle.com.
+These datasets are larger then the 'easy' ones and likely more preprocessing.
+
+In general, for any kaggle dataset, there is a
+'data' tab where a 'train.csv' and a 'test.csv' dataset can be downloaded. the
+'train.csv' dataset contains labelled data and should be used to train the model.
+The 'test.csv' dataset should be used for testing. If you want to see how well you
+do, you can create an account for your team and submit your predictions for
+'test.csv' to the website. You will then appear on the 'Leaderboard' tab.
+
+Feel free to explore https://www.kaggle.com/competitions for more datasets. I do
+recommend starting with the ones below though. Inform me if you want to use other
+datasets.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+
+1) Invasive Species Monitoring: Predict which images show an invasive species
+
+    https://www.kaggle.com/c/invasive-species-monitoring
+
+2) Understanding the amazon from space: This is a huge dataset of satellite images
+  to be classified. You will have to think about subsampling and parsing the data
+  if you want to work with this. Dimensionality reduction could also be useful here.
+
+    https://www.kaggle.com/c/planet-understanding-the-amazon-from-space
