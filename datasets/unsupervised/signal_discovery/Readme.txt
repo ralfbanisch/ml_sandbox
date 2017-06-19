@@ -1,5 +1,7 @@
-These images contain signal areas (black) and noise-free non-signal areas (white). Add gaussian noise to each pixel and try to tell apart noise from signal in an unsupervised fashion (i.e. do not use classification algorithm and your ground truth knowledge!). Compare to ground truth. How robust is your algorithm to increasing the noise level?
-It could help to use adjacency information of the pixels: if one pixel contains signal (non-signal), its neighbour is more likely to contain signal (non-signal) as well.
+These images contain signal areas (non-zero/black) and noise-free non-signal areas (zero/white). Add gaussian noise to each pixel and try to tell apart noise from signal in an unsupervised fashion (i.e. do not use an classification algorithm and your ground truth knowledge!). Compare to ground truth. How robust is your algorithm to increasing the noise level?
+Hints:
+- Try to estimate a denoised version of the image with the help of a sparsity-enforcing regularizer (L1-regularizer)
+- It could help to use adjacency information of the pixels: if one pixel contains signal (non-signal), its neighbour is more likely to contain signal (non-signal) as well. Can you derive a regularizer from this idea?
 
 Find a parametrization of your algorithm that allows to tune for more vs. less pixels being identified as signal.
 
