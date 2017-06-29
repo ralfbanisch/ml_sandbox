@@ -1,0 +1,33 @@
+On the day of your project presentation, you will be asked to hand in a written
+report about your project. Your final grade will be determined in equal parts
+based on your presentation and your project report. Use visual aides for your
+project presentation (e.g. slides, jupyter notebook,...). Your project report
+should explain the problem you set out to study and (briefly) the methods you
+used. It should document at least central parts of the code and the results.
+
+Don't overdo it: I do not expect you to write the equivalent of a Bachelor's
+thesis. Keep things brief, the hard page limit is 10 pages but 4-5 is probably
+reasonable.
+
+Evaluation criteria for the project report:
+
+1) Scope and originality: What is the problem that you set out to study? What is
+the scope of it? There be at least one original aspect of your work (an algorithm
+you implemented (or even developed) yourself, a mathematical analysis of e.g. expected
+probability of error or VC dimension, a comparison of different methods,...)
+
+2) Methods and execution: What methods did you use? Is your reasoning for why
+you chose your methods and how you use them sound? How did you deal with e.g.
+parameters you had to chose? How did you validate your results?
+
+3) Results: Are the results presented in a clear way? If you are doing supervised
+learning, you must report the performance of your trained ML method on the test
+set or use cross validation. What conclusions can you draw from your results.
+
+Evaluation criteria for the project presentation:
+
+1) Clarity
+
+2) Time management
+
+3) Content (e.g. same criteria as for the report)
